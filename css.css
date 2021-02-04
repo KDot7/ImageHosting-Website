@@ -1,0 +1,97 @@
+
+.container-class background-img {
+      transation: 1s;
+      padding:15px;
+      width: 200px;
+}
+
+
+input, label {
+    display:block;
+}
+
+
+div.boot {
+  border-right: 5px dotted #0095A4;
+  border-radius: 0px 40px 0px 40px;
+  background: linear-gradient(white, lightblue);
+  padding:
+}
+
+/* Style for the navigation bar */
+.topnav{
+  overflow:hidden;
+  background: linear-gradient(white, lightblue);
+}
+
+/* Navigation link styling*/
+.topnav a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: underline;
+}
+
+/*Changing the hover color on navigation */
+.topnav a:hover{
+  background: #f3c238;
+  color: white;
+}
+
+label.error{
+  color:red;
+}
+
+.adminheader{
+  padding: 30px;
+  font-size: 200%;
+  text-align: center;
+}
+
+
+
+
+.gallery-upload {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  margin:10px 5px;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #F2F2F2;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 4px 5px rgba(203,166,255,0);
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 4px 5px rgba(203,166,255,0);
+  border-right: 5px outset #1C6EA4;
+  border-radius: 40px 40px 40px 40px;
+  border-left: 5px outset #1C6EA4;
+}
+
+
+
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+
+}
+
+
+.background{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.login-background{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.signup{
+  background: rgb(255,0,0);
+background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 9%, rgba(255,219,219,1) 49%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+}
